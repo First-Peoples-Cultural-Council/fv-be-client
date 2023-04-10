@@ -9,6 +9,7 @@ file_server
 log {
   level WARN
 }
+
 encode gzip
 
 templates /assets/configuration* {
