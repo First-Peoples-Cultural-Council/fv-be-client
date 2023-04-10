@@ -1,0 +1,5 @@
+node_modules
+.node-build-cache
+.idea
+.env*
+.DS_Store

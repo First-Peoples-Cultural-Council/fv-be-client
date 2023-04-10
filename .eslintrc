@@ -1,0 +1,23 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"rules": {
+		"complexity": "off",
+		"no-mixed-spaces-and-tabs": "off",
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 0
+			}
+		]
+	},
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended"
+	]
+}
